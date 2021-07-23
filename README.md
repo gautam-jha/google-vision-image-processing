@@ -4,9 +4,10 @@
 Just a small college level project with utilizes google vision services for the most of the difficult parts.
 
 
-# to run the project
+## to run the project
+- copy key.example.json as key.json or download file from google cloud iam account and place it into the root directory
 
-```JSON key.json from google cloud iam account and place it into the root directory
+```JSON 
 {
   "type": "service_account",
   "project_id": "",
