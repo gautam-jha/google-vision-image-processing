@@ -1,0 +1,21 @@
+{
+    "name": "myfirstgooglevision",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "lint": "eslint .",
+        "lint-fix": "eslint . --fix"
+    },
+    "author": "Gautam Jha",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/vision": "^0.12.0",
+        "express": "^4.16.2",
+        "nodemon": "^1.12.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.31.0"
+    }
+}
